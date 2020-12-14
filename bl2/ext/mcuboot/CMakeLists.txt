@@ -26,6 +26,7 @@ target_sources(bl2
         ${CMAKE_CURRENT_SOURCE_DIR}/flash_map_legacy.c
         ${MCUBOOT_PATH}/boot/bootutil/src/loader.c
         ${MCUBOOT_PATH}/boot/bootutil/src/bootutil_misc.c
+        ${MCUBOOT_PATH}/boot/bootutil/src/bootutil_public.c
         ${MCUBOOT_PATH}/boot/bootutil/src/image_validate.c
         ${MCUBOOT_PATH}/boot/bootutil/src/image_rsa.c
         ${MCUBOOT_PATH}/boot/bootutil/src/tlv.c
